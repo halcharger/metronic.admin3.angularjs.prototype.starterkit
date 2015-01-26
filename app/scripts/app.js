@@ -32,6 +32,10 @@ angular
         templateUrl: 'views/modals.html',
         controller: 'ModalsCtrl'
       })
+      .when('/datepickers', {
+        templateUrl: 'views/datepickers.html',
+        controller: 'DatepickersCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
